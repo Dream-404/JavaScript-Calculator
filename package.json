@@ -65,7 +65,7 @@
     "yaml": "^1.10.2"
   },
   "scripts": {
-    "build-css": "npx tailwindcss -i ./src/input.css -o ./build/output.css --watch"
+    "build-css": "tailwindcss build -i ./src/input.css -o ./build/output.css --watch"
   },
   "keywords": [],
   "author": "",
